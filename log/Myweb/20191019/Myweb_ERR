@@ -1,0 +1,25 @@
+10/19 13:33:26 init.c [43]: XmlGetNetwork err! 
+10/19 13:33:26 ser.c [24]: InitTCP err!
+10/19 13:33:27 init.c [43]: XmlGetNetwork err! 
+10/19 13:33:27 ser.c [24]: InitTCP err!
+10/19 13:33:28 init.c [43]: XmlGetNetwork err! 
+10/19 13:33:28 ser.c [24]: InitTCP err!
+10/19 13:33:51 init.c [43]: XmlGetNetwork err! 
+10/19 13:33:51 ser.c [24]: InitTCP err!
+10/19 14:37:36 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.woff?v=4.0.3] err 
+10/19 14:37:36 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.ttf?v=4.0.3] err 
+10/19 14:48:01 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.woff?v=4.0.3] err 
+10/19 14:48:01 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.ttf?v=4.0.3] err 
+10/19 14:48:31 operate.c [89]: open [/home/web/myweb/HTML/222] err 
+10/19 14:49:31 operate.c [137]: Method[] or Route[] is NULL
+10/19 14:52:56 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.woff?v=4.0.3] err 
+10/19 14:52:56 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.ttf?v=4.0.3] err 
+10/19 14:54:43 operate.c [137]: Method[] or Route[] is NULL
+10/19 14:54:43 operate.c [137]: Method[] or Route[] is NULL
+10/19 15:06:26 operate.c [89]: open [/home/web/myweb/HTML/222] err 
+10/19 15:06:35 operate.c [89]: open [/home/web/myweb/HTML/222] err 
+10/19 15:07:00 operate.c [89]: open [/home/web/myweb/HTML/222] err 
+10/19 15:07:03 operate.c [89]: open [/home/web/myweb/HTML/222] err 
+10/19 15:11:25 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.woff?v=4.0.3] err 
+10/19 15:11:29 operate.c [89]: open [/home/web/myweb/HTML/fonts/fontawesome-webfontba72.ttf?v=4.0.3] err 
+10/19 15:11:42 operate.c [137]: Method[] or Route[] is NULL

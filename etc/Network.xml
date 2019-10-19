@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Network>
+	<!--文件接收配置信息,修改文件需要重启服务才生效-->
+	<FileRecv>
+		<Desc>/home/wbl/RECVFILE</Desc>
+		<IP>0.0.0.0</IP>
+		<Port>7778</Port>
+	</FileRecv>
+	<WebService>
+		<Desc></Desc>
+		<IP>0.0.0.0</IP>
+		<Port>5566</Port>
+	</WebService>
+</Network>

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+while true ; do
+	clear
+	a=`ps -u web|grep WebService|awk '{print $1}'`
+	clear
+	echo ""
+	echo ""
+	echo ""
+	echo "      ***************************************************************"
+    echo "      *                                                             *"
+	echo "      *                 Service  Control  System                    *"
+    echo "      *                                                             *"
+	echo -n "      *            1.WebService Web服务状态"
+	if [ "$a" == "" ] ;
+	then 
+		echo "........未启动           *"
+	else
+		echo "........启动             *"
+	fi
+	echo "      *                                                             *"
+	echo "      *              1.启动服务  2.结束服务  0.返回                 *"
+	echo "      ***************************************************************"
+	read -p "      输入选项": TOMCHOICE
+	case $TOMCHOICE in
+		"1" )
+			clear
+			if [ "$a" != "" ] ;
+			then 
+				kill -9 $a
+			fi
+			cd $HOME/bin
+			./WebService
+			clear
+			echo ""
+			echo "程序已经启动"
+			read -p "按回车键继续......." :PAUSE1
+			echo ""
+			;;
+		"2" )
+			clear
+			if [ "$a" != "" ] ;
+			then
+				cd $HOME/bin
+				kill -9 $a 1>/dev/null 2>/dev/null
+			fi
+			clear
+			echo ""
+			echo "程序已经全部停止"
+			read -p "按回车键继续......" :PAUSE2
+			;;
+		"0" )
+			clear
+			echo ""
+			echo ""
+			echo ""
+			break
+			;;
+		* )
+			clear
+			echo ""
+			echo "       输入的参数有误！"
+			echo ""
+			;;
+	esac
+done
+
